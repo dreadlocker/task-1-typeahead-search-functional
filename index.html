@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>task-1-typeahead-search-functional</title>
   <link rel="stylesheet" href="./styles/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+
 </head>
 
-<body>
+<body onload="start()">
   <div id="search-holder">
     <div id="iput-holder">
       <input type="text" id="input" placeholder="Enter name of country..." autofocus>
@@ -16,8 +18,7 @@
     <div id="country-holder"></div>
   </div>
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
-  <script type="module" src="./js/app.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 
 </html>
