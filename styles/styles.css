@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+#search-holder {
+  width: calc( 320px - (10px * 2) );
+  margin: 15px auto;
+  border: 1px solid #59acdb;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+#iput-holder {
+  width: calc( 100% - 5px );
+  position: relative;
+}
+
+#input {
+  width: inherit;
+  border: 1px solid #59acdb;
+  padding-left: 5px;
+}
+
+#search-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#country-holder {
+  width: calc( 100% - 5px );
+  padding: 5px;
+}
+
+.country-name:hover {
+  background-color: #59acdb;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

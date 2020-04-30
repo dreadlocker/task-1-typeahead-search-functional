@@ -1,0 +1,34 @@
+$text-padding: 5px
+$border-color: #59acdb
+$smallest-screen-width: 320px
+$search-holder-margin: 10px
+  
+body
+  margin: 0
+
+#search-holder
+  width: calc( #{$smallest-screen-width} - (#{$search-holder-margin} * 2) )
+  margin: 15px auto
+  border: 1px solid $border-color
+  margin: $search-holder-margin auto
+  padding: 5px
+
+#iput-holder
+  width: calc( 100% - #{$text-padding} )
+  position: relative
+#input
+  width: inherit
+  border: 1px solid $border-color
+  padding-left: $text-padding
+#search-icon
+  position: absolute
+  bottom: 0
+  right: 0
+  
+#country-holder
+  width: calc( 100% - #{$text-padding} )
+  padding: $text-padding
+.country-name
+  &:hover
+    background-color: $border-color
+    color: white
